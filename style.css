@@ -1,0 +1,77 @@
+/*
+  Some colors you may find useful:
+  #115ff4
+  #060ce9
+  #28a200
+  #8d2ab5
+  #74119c
+*/
+
+body {
+  text-align: center;
+}
+
+h1 {
+  color: #115ff4;
+}
+
+button {
+  background-color: #115ff4;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 20px 0;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #060ce9;
+}
+
+.clue:hover{
+  background-color:  #28a200;
+}
+
+section {
+  width: 90%;
+  margin: 0 auto;
+}
+
+table {
+  width: 100%;
+  table-layout: fixed;
+}
+
+thead{
+  background-color: #115ff4;
+  color: #fff;
+}
+
+#active-clue {
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  border: 2px solid #115ff4;
+  background-color: #fff;
+  font-size: 18px;
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.disabled {
+  display: none;
+}
+
+.viewed {
+  text-decoration: line-through;
+  background-color: #d3d3d3; 
+}
+
+#spinner.show {
+  display: block; 
+}
